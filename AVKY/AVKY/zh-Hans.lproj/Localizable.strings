@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  AVKY
+
+  Created by 杰 on 16/8/10.
+  Copyright © 2016年 杰. All rights reserved.
+*/
+"Return" = "返回";//返回
+"find" = "发现";//发现
+"home" = "首页";//首页
+"Sports" = "健康";//健康体育
+"login" = "登录";//登录
+"registe" = "注册";//注册
+"Doctor" = "名医一点通";//名医一点通
+"loopText" = "组 名:AV字幕组    组 长:罗志杰    组 员:杨冬武、公用辉、郑延安、胡佳贵、周勇、周雷雷";//跑马灯文字
+"tumour" = "肿瘤";//肿瘤
+"Hematology" = "血液科";//血液科
+"Cardiovascular" = "心血管";//心血管
+"NerveSection" = "神经科";//神经科
+"Orthopaedics" = "骨科";//骨科
+"Commonweal" = "公益活动";//公益活动
+
+"name" = "独孤求败";//昵称
+"PersonMessage" = "你的基本信息";//您的基本信息
+"MedicalDoctor" = "名医申请";//名医申请
+"katamnesis" = "病历管理";//病历管理
+"follow" = "关注医生";//关注医生
+"setting" = "设置与帮助";//设置
+"about" = "关于产品";//关于
+"share" = "分享";//分享
+"Date" = "日期";//日期
+"weather" = "温度";//温度天气
+"LoadingMedium" = "正在加载中...";//正在加载中...
+
+
+/**
+ *  @"昵称",@"性别",@"证件号码",@"联系方式",@"身高",@"体重",@"籍贯",@"常居地", nil
+ */
+"Pinformation" = "个人信息";//个人信息标题
+"ID" = "姓名";//姓名
+"Sex" = "性别";//性别
+"papers" = "证件号码";//证件号码
+"Phone" = "联系方式";//手机号码联系方式
+"Height" = "身高";//身高
+"weight" = "体重";//体重
+"NativePlace" = "籍贯";//籍贯
+"Residence" = "常居地";//居住地
+
+
+"Feedback" = "意见反馈";//意见反馈
+"Explain" = "加符号说明";//说明
+"ModifyPassword" = "修改密码";//修改密码
+"ClearCache" = "清理缓存";//清理缓存
+"Cancellation" = "注销";//注销
+

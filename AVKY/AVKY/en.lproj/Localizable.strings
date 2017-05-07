@@ -1,0 +1,72 @@
+/* 
+  Localizable.strings
+  AVKY
+
+  Created by 杰 on 16/8/10.
+  Copyright © 2016年 杰. All rights reserved.
+ Group name:AV subtitle group Group leader:XJ member:DovYoung、Marcello、YZ、ZYA、ZY、Raychow
+ 组 名:AV字幕组   组 长:罗志杰   组 员:杨冬武、公用辉、郑延安、胡佳贵、周勇、周雷雷
+//*///@"肿瘤",@"血液科",@"心血管",@"神经科",@"骨科",@"公益活动"
+
+
+"Return" = "back";//返回
+"login" = "login";//登录
+"registe" = "Register";//注册
+"find" = "Find";//发现
+"home"  = "Home";//首页
+"Sports" = "Sports";//健康体育
+"Doctor" = "Doctor";//名医一点通
+"loopText" = "Group name:AV Subtitle Group     GroupName:XJ Member:DovYoung、Marcello、YZ、ZYA、ZY、Raychow";//跑马灯文字
+"tumour" = "tumour";//肿瘤
+"Hematology" = "Hematology";//血液科
+"Cardiovascular" = "Cardiovas";//心血管
+"NerveSection" = "NerveSect";//神经科
+"Orthopaedics" = "Orthopaed";//骨科
+"Commonweal" = "Commonw";//公益活动
+
+"name" = "Duguqiubai";//昵称
+"PersonMessage" = "Your basic information";//您的基本信息
+"MedicalDoctor" = "MedicalDoctor";//名医申请
+"katamnesis" = "katamnesis";//病历管理
+"follow" = "follow";//关注医生
+"setting" = "Setting";//设置
+"about" = "about";//关于
+"share" = "share";//分享
+"Date" = "Date";//日期
+"weather" = "weather";//温度天气
+"LoadingMedium" = "Loading Medium..";//正在加载中...
+//"Welcome" = "Welcome to LOL,---------AVKY";
+
+/**
+ *  @"昵称",@"性别",@"证件号码",@"联系方式",@"身高",@"体重",@"籍贯",@"常居地", nil
+ */
+"Pinformation" = "Personal information";//个人信息标题
+"ID" = "name";//姓名
+"Sex" = "sex";//性别
+"papers" = "Papers";//证件号码
+"Phone" = "Phone";//手机号码联系方式
+"Height" = "Height";//身高
+"weight" = "Weight";//体重
+"NativePlace" = "NativPlace";//籍贯
+"Residence" = "Residence";//居住地
+
+//意见反馈、加符号说明、修改密码、清理缓存、注销用户
+"Feedback" = "Feedback";//意见反馈
+"Explain" = "Explain";//说明
+"ModifyPassword" = "Modify Password";//修改密码
+"ClearCache" = "Clear Cache";//清理缓存
+"Cancellation" = "Cancellation";//注销
+
+
+
+
+
+
+
+
+
+
+
+
+
+

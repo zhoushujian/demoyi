@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionViewCellIdentifier" id="Dnn-T0-r3J" customClass="DYChartCell">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAt-k1-aGq">
+                        <rect key="frame" x="0.0" y="1" width="50" height="49"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="XAt-k1-aGq" firstAttribute="leading" secondItem="Dnn-T0-r3J" secondAttribute="leading" id="0cS-f2-WTT"/>
+                <constraint firstItem="XAt-k1-aGq" firstAttribute="top" secondItem="Dnn-T0-r3J" secondAttribute="top" constant="1" id="CL2-Ms-Afa"/>
+                <constraint firstAttribute="bottom" secondItem="XAt-k1-aGq" secondAttribute="bottom" id="T54-DE-XUz"/>
+                <constraint firstAttribute="trailing" secondItem="XAt-k1-aGq" secondAttribute="trailing" id="aFT-Om-8jY"/>
+            </constraints>
+            <connections>
+                <outlet property="button" destination="XAt-k1-aGq" id="unK-ve-CPF"/>
+            </connections>
+            <point key="canvasLocation" x="88" y="250"/>
+        </collectionViewCell>
+    </objects>
+</document>

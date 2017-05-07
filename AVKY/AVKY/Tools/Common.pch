@@ -1,0 +1,90 @@
+//
+//  Common.pch
+//  AVKY
+//
+//  Created by zheng on 16/8/4.
+//  Copyright © 2016年 杰. All rights reserved.
+//
+
+//#ifndef Common_pch
+//#define Common_pch
+//
+//
+//
+//#endif /* Common_pch */
+
+#define ShareSDKAPPKey @"1462e51e25ce0"
+#define ShareSDKAppSecret @"c736012093303c0e2c9433fb79297863"
+#define sinaAppKey @"3367910073"
+#define sinaAppSecret @"8b2407cfb988eeb8503c58f9de0c7e93"
+#define sinaRedirectUri @"https://www.baidu.com"
+#define weChatAppKey @"wx03670c8154c0d07d"
+#define weChatAppSecret @"140468c24cb8f1dd3e35b8179c5dbfd4"
+
+#define weiboAppKey @"2046648914"
+#define weiboAppSecret @"d4b33a3e37faeaf9df77aea7deb8ed9c"
+#define weiboRedirectURL @"http://www.baidu.com"
+#define userAccount @"userAccountKEY"
+//微博账号和密码
+#define weiboUserName  @"15016601150"
+#define weiboUserPassword  @"itheima123456"
+//授权登录成功的通知
+#define loginSuccessNotification @"loginSuccessNotification"
+//本地账户
+#define localAccount @"localAccount"
+//当前登录ID
+#define currentLoginID @"currentLoginID"
+//当前用户昵称改变的通知
+#define userNameNotification @"userNameNotification"
+//当前用户图像改变的通知
+#define userIconNotification @"userIconNotification"
+//当前用户昵称key
+#define userName_Key @"userName_key"
+
+
+//第三方库
+#import <Masonry.h>
+#import <AFNetworking/AFNetworking.h>
+
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <YYModel/YYModel.h>
+#import <SMS_SDK/SMSSDK.h>
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
+
+//设置字体
+#define FONT(size) [UIFont systemFontOfSize:size]
+//是否是3.5英寸
+#define is3inch ([UIScreen mainScreen].bounds.size.height == 480)
+//是否4英寸
+#define is4inch ([UIScreen mainScreen].bounds.size.height == 568)
+//是否4.7英寸
+#define is47inch ([UIScreen mainScreen].bounds.size.height == 667)
+//是否5.5英寸
+#define is55inch ([UIScreen mainScreen].bounds.size.height == 736)
+
+//设置颜色
+#define COLOR(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define SAME_COLOR(value) COLOR(value,value,value)
+//屏幕宽度和高度
+#define screenW [UIScreen mainScreen].bounds.size.width
+#define screenH [UIScreen mainScreen].bounds.size.height
+//固定浅蓝色
+#define globalColor [UIColor colorWithRed:93/255.0 green:198/255.0 blue:197/255.0 alpha:1]
+//随机颜色
+#define randomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
+
+//公用工具类声明
+#import "NSString+Regular.h"
+#import "AVUserDefaultsTool.h"
+#import "UITextField+image.h"
+#import "HMWeakTimerTargetObj.h"
+#import "UserAccount.h"
+
+
+//疾病传值通知的key
+#define deseaseNotificationKey @"deseaseNotificationKey"
+
+#define baiDuMapAK @"szh1ol0z7GZ1eUL79i7SXSW2jI14Ppth"
+
+//延迟方法 去掉svp 提示的效果
+#define delay(time) dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)((time) * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{[SVProgressHUD dismiss];})

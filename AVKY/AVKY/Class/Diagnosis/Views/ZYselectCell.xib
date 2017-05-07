@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="select" id="KGk-i7-Jjw" customClass="ZYselectCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFN-ES-P8y">
+                        <rect key="frame" x="155" y="6" width="71" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="71" id="O93-5x-cqh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="已确诊" image="select_default">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <state key="selected" image="select_click"/>
+                        <connections>
+                            <action selector="buttonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="POj-ym-mh8"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8T-Iu-3vc">
+                        <rect key="frame" x="8" y="12.5" width="142" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRI-vF-09R">
+                        <rect key="frame" x="228" y="6" width="84" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="84" id="UhU-UF-Il9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="疑似症状" image="select_default">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <state key="selected" image="select_click"/>
+                        <connections>
+                            <action selector="buttonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Xv3-1e-8yf"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="D8T-Iu-3vc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="0mo-Uv-Zbb"/>
+                    <constraint firstAttribute="trailing" secondItem="mRI-vF-09R" secondAttribute="trailing" constant="5" id="66z-nk-ID5"/>
+                    <constraint firstItem="D8T-Iu-3vc" firstAttribute="centerY" secondItem="cFN-ES-P8y" secondAttribute="centerY" id="Xjh-KW-cky"/>
+                    <constraint firstItem="mRI-vF-09R" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="d3R-co-Cro"/>
+                    <constraint firstItem="cFN-ES-P8y" firstAttribute="leading" secondItem="D8T-Iu-3vc" secondAttribute="trailing" constant="5" id="gcP-7d-ryy"/>
+                    <constraint firstItem="mRI-vF-09R" firstAttribute="leading" secondItem="cFN-ES-P8y" secondAttribute="trailing" constant="5" id="jO6-zE-4QG"/>
+                    <constraint firstItem="cFN-ES-P8y" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qjv-ID-ewn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="DifineButton" destination="cFN-ES-P8y" id="pUl-k4-PHq"/>
+                <outlet property="LikeButton" destination="mRI-vF-09R" id="7SU-YJ-3Kk"/>
+                <outlet property="titlelbl" destination="D8T-Iu-3vc" id="Hes-Qa-ESK"/>
+            </connections>
+            <point key="canvasLocation" x="367" y="333"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="select_click" width="32" height="32"/>
+        <image name="select_default" width="32" height="32"/>
+    </resources>
+</document>

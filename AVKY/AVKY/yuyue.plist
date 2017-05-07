@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string></string>
+		<string>周一</string>
+		<string>周二</string>
+		<string>周三</string>
+		<string>周四</string>
+		<string>周五</string>
+		<string>周六</string>
+		<string>周日</string>
+	</array>
+	<array>
+		<string>上午</string>
+		<string>有号</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+	</array>
+	<array>
+		<string>下午</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string>有号</string>
+		<string></string>
+		<string></string>
+		<string></string>
+	</array>
+	<array>
+		<string>晚上</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string>有号</string>
+		<string></string>
+		<string></string>
+	</array>
+</array>
+</plist>
